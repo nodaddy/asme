@@ -1,0 +1,200 @@
+.main-container{
+    position: absolute;
+    width: 1440px;
+    height: auto;
+    
+    width: 100vw;
+    left: 0px;
+    right: 0px;
+    /* top: 140px; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    /* border: 1px dashed blue; */
+
+}
+
+.blue-stripe{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    /* left: 0px; */
+    /* top: 160px; */
+
+    background: rgba(0, 178, 255, 0.18);
+}
+
+#heading{
+    /* position: absolute; */
+    /* width: 271px;*/
+    height: 70px; 
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    /* width: 50%; */
+    /* left: 50px;
+    top: 100px; */
+    /* border: 1px dashed green; */
+    /* width: 100%; */
+}
+#heading > svg{
+    height: auto;
+    /* position: relative; */
+    /* margin-left: 100px; */
+    /* position: absolute; */
+    /* text-align: right; */
+    float: right;
+    /* margin-right: 40px; */
+    /* width: 100%; */
+}
+#heading-font{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 0%;
+    /* or 0px */
+/* padding-right: 50px; */
+padding: 1%;
+    display: flex;
+    /* align-items: center; */
+
+    color: #000000;
+}
+
+.sub-heading{
+    text-align: left;
+    margin-left: 0;
+    font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 32px;
+color: #348FE2;
+
+}
+svg{
+    height: 30px;
+    display: inline ;
+    margin: 5px;
+}
+.plain-text{
+    display: inline;
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+/* 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+} */
+
+.in-container{
+    position: relative;
+    /* border: 1px dashed red; */
+    /* width: 600px; */
+    float: left;
+}
+
+.input{
+    /* position: absolute;*/
+    /* width: 145%; */
+    width: 100%;
+    /* height: 60px; */ 
+    /* left: 590px;
+    top: 418px; */
+
+    background: #FFFFFF;
+    border: 0.5px solid #9B9B9B;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+}
+
+#name{
+    /* position: absolute; */
+/* width: 600px;*/
+height: 50px; 
+margin-top: 5px;
+margin-bottom: 5px;
+/* left: 590px; */
+/* top: 418px; */
+}
+#email{
+    /* position: absolute; */
+/* width: 600px;*/
+height: 50px; 
+margin-top: 5px;
+margin-bottom: 5px;
+/* left: 590px; */
+/* top: 498px; */
+}
+
+#message{
+    /* position: absolute; */
+    /* width: 600px;*/
+    height: 130px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* left: 590px; */
+    /* top: 578px; */
+}
+
+#address-contact-container{
+    order: 1;
+    width: 40%;
+}
+
+#address-container{
+    margin: 20px;
+}
+
+#contacts-container{
+    margin: 20px;
+    /* border: 2px dashed blue;  */
+}
+
+#mail-us-container{
+    padding: 15px;
+    order: 2;
+    /* border: 2px double yellow; */
+    width: 60%;
+}
+
+#clear-button{
+    width: 100%;
+    height: 40px;
+    
+margin-top: 5px;
+margin-bottom: 5px;
+    padding: 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+border: 2px solid #00B2FF;
+}
+
+#submit-button{
+    width: 100%;
+    height: 40px;
+    background: #00B2FF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    
+margin-top: 5px;
+margin-bottom: 5px;
+    /* border: 3px dashed yellow; */
+    padding: 2px;
+}
+
+#map-container{
+    order: 3;
+    width: 100%;
+    text-align: left;
+    /* border: 2px dashed violet; */
+    margin-left: 52px;
+    margin-right: 45px;
+
+}

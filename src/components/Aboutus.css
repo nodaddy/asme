@@ -1,0 +1,16 @@
+.blue-stripe{
+    position: absolute;
+    width: 100%;
+    left:0px;
+    height: 20px;
+    background: rgba(0, 178, 255, 0.18);
+    margin:0px;
+}
+
+#heading{
+    height: 70px; 
+    width: 270px;
+    margin-top: 80px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
